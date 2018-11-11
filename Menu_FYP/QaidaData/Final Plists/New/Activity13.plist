@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<string>بُرِّزَ</string>
+	<string>حُصِّلَ</string>
+	<string>صَدَّقَ</string>
+	<string>عَدَّدَ</string>
+	<string>قَدَّرَ</string>
+	<string>كَذَّبَ</string>
+	<string>نَعَّمَ</string>
+	<string>يَظُنُّ</string>
+	<string>جَنَّةٍ</string>
+	<string>ذَرَّةٍ</string>
+	<string>قُوَّةٍ</string>
+	<string>كَرَّةٌ</string>
+	<string>سُعِّرَتْ</string>
+	<string>قَدَّمَتْ</string>
+	<string>كَذَّبَتْ</string>
+	<string>زُوِّجَتْ</string>
+	<string>سُجِّرَتْ</string>
+	<string>فُجِّرَتْ</string>
+	<string>سُيِّرَتْ</string>
+	<string>عُطِّلَتْ</string>
+	<string>كُوِّرَتْ</string>
+	<string>تَطَّلِعُ</string>
+	<string>تُحَدِّثُ</string>
+	<string>قَيِّمَةٌ</string>
+	<string>عَشِيَّةٌ</string>
+	<string>مُذَكِّرٌ</string>
+	<string>اَيَّانَ</string>
+	<string>اِيَّاكَ</string>
+	<string>لِلهِ</string>
+</array>
+</plist>
