@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="UHJ-34-xxB">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="cvm-lG-OPU">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -18,7 +18,7 @@
         <!--Menu View Controller-->
         <scene sceneID="7lj-yq-aNa">
             <objects>
-                <viewController id="R5d-gF-NKs" customClass="MenuViewController" customModule="Menu_FYP" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="R5d-gF-NKs" customClass="MenuViewController" customModule="Alif_Laam_Meem" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="sqG-9y-jeY">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -81,7 +81,7 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Menu_FYP" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Alif_Laam_Meem" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -94,7 +94,7 @@
                                     <constraint firstAttribute="height" constant="34" id="Vp5-or-DmY"/>
                                 </constraints>
                                 <attributedString key="attributedText">
-                                    <fragment content="Assessments">
+                                    <fragment content="My Assessments">
                                         <attributes>
                                             <color key="NSColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <font key="NSFont" metaFont="system" size="29"/>
@@ -118,7 +118,7 @@
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="AssessmentCell" id="KP1-kD-hQK" customClass="AssessmentCollectionViewCell" customModule="Menu_FYP" customModuleProvider="target">
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="AssessmentCell" id="KP1-kD-hQK" customClass="AssessmentCollectionViewCell" customModule="Alif_Laam_Meem" customModuleProvider="target">
                                         <rect key="frame" x="2" y="0.0" width="371" height="56"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
@@ -205,7 +205,7 @@
         <!--Qaida View Controller-->
         <scene sceneID="i9o-v0-1jj">
             <objects>
-                <viewController id="dDJ-3V-EEc" customClass="QaidaViewController" customModule="Menu_FYP" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="dDJ-3V-EEc" customClass="QaidaViewController" customModule="Alif_Laam_Meem" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="cN3-7T-F8H">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -224,7 +224,7 @@
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="QaidaCell" id="3zE-hb-tUs" customClass="QaidaCollectionViewCell" customModule="Menu_FYP" customModuleProvider="target">
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="QaidaCell" id="3zE-hb-tUs" customClass="QaidaCollectionViewCell" customModule="Alif_Laam_Meem" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="64" height="64"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
@@ -307,7 +307,7 @@
         <!--Lessons View Controller-->
         <scene sceneID="L3E-Lx-Vhy">
             <objects>
-                <viewController id="eNj-iz-8ci" customClass="LessonsViewController" customModule="Menu_FYP" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="eNj-iz-8ci" customClass="LessonsViewController" customModule="Alif_Laam_Meem" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="wBo-L6-ED9">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -336,7 +336,7 @@
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="LessonsCell" id="zC1-P9-vmU" userLabel="LessonsCell" customClass="lessonsCell" customModule="Menu_FYP" customModuleProvider="target">
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="LessonsCell" id="zC1-P9-vmU" userLabel="LessonsCell" customClass="lessonsCell" customModule="Alif_Laam_Meem" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="70" height="50"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
@@ -409,7 +409,7 @@
         <!--Grid View Controller-->
         <scene sceneID="18D-66-ZAI">
             <objects>
-                <viewController id="UHJ-34-xxB" customClass="GridViewController" customModule="Menu_FYP" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="UHJ-34-xxB" customClass="GridViewController" customModule="Alif_Laam_Meem" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="KId-Qj-dxM">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -438,7 +438,7 @@
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="GridButton" id="3Jw-fS-8ms" customClass="GridViewCell" customModule="Menu_FYP" customModuleProvider="target">
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="GridButton" id="3Jw-fS-8ms" customClass="GridViewCell" customModule="Alif_Laam_Meem" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
@@ -487,7 +487,7 @@
         <!--Quran View Controller-->
         <scene sceneID="R9L-36-Hxr">
             <objects>
-                <viewController id="uAW-x8-Vzo" customClass="QuranViewController" customModule="Menu_FYP" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="uAW-x8-Vzo" customClass="QuranViewController" customModule="Alif_Laam_Meem" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="2JD-rR-hXz"/>
                         <viewControllerLayoutGuide type="bottom" id="VQD-tf-oUR"/>
@@ -506,7 +506,7 @@
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="QuranCell" id="m1w-2d-17Q" customClass="QuranCollectionViewCell" customModule="Menu_FYP" customModuleProvider="target">
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="QuranCell" id="m1w-2d-17Q" customClass="QuranCollectionViewCell" customModule="Alif_Laam_Meem" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="14.5" width="374" height="618"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
@@ -575,6 +575,93 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Yy2-zC-KDj" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="137" y="904"/>
+        </scene>
+        <!--New Assessment View Controller-->
+        <scene sceneID="hHb-UR-stF">
+            <objects>
+                <viewController id="cvm-lG-OPU" customClass="NewAssessmentViewController" customModule="Alif_Laam_Meem" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="L0O-1c-6W7">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="New Assessment" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NcA-k1-uaW">
+                                <rect key="frame" x="8" y="32" width="359" height="35"/>
+                                <color key="backgroundColor" red="0.58403110499999999" green="0.23868465420000001" blue="0.58920735120000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="29"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="rL6-Ji-EAh">
+                                <rect key="frame" x="8" y="162" width="359" height="175"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="b92-Wz-lh0">
+                                    <size key="itemSize" width="50" height="50"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="wordButton" id="s9M-b6-ndp" customClass="NewAssessmentCollectionViewCell" customModule="Alif_Laam_Meem" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
+                                            <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="58U-U1-voU">
+                                                    <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <state key="normal" title="Button"/>
+                                                </button>
+                                            </subviews>
+                                        </view>
+                                        <connections>
+                                            <outlet property="word" destination="58U-U1-voU" id="z0E-fX-3h1"/>
+                                        </connections>
+                                    </collectionViewCell>
+                                </cells>
+                                <connections>
+                                    <outlet property="dataSource" destination="cvm-lG-OPU" id="8lM-C9-fK2"/>
+                                    <outlet property="delegate" destination="cvm-lG-OPU" id="KdJ-fU-pIY"/>
+                                </connections>
+                            </collectionView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BEZ-dB-hCe">
+                                <rect key="frame" x="101" y="445" width="49" height="30"/>
+                                <color key="backgroundColor" red="0.92549019610000005" green="0.92549019610000005" blue="0.92549019610000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Submit"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kUR-qN-Hy0">
+                                <rect key="frame" x="208" y="445" width="49" height="30"/>
+                                <color key="backgroundColor" red="0.92549019610000005" green="0.92549019610000005" blue="0.92549019610000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Record"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="kUR-qN-Hy0" firstAttribute="leading" secondItem="BEZ-dB-hCe" secondAttribute="trailing" constant="58" id="63v-ff-Tde"/>
+                            <constraint firstItem="NcA-k1-uaW" firstAttribute="top" secondItem="Jir-yX-bCH" secondAttribute="top" constant="12" id="9dM-O9-5aA"/>
+                            <constraint firstItem="NcA-k1-uaW" firstAttribute="leading" secondItem="Jir-yX-bCH" secondAttribute="leading" constant="8" id="Bsa-mQ-DfL"/>
+                            <constraint firstItem="rL6-Ji-EAh" firstAttribute="leading" secondItem="Jir-yX-bCH" secondAttribute="leading" constant="8" id="HGz-sz-qXD"/>
+                            <constraint firstItem="Jir-yX-bCH" firstAttribute="bottom" secondItem="kUR-qN-Hy0" secondAttribute="bottom" constant="192" id="Qtt-1h-1IA"/>
+                            <constraint firstItem="Jir-yX-bCH" firstAttribute="trailing" secondItem="kUR-qN-Hy0" secondAttribute="trailing" constant="118" id="TV6-75-VPw"/>
+                            <constraint firstItem="kUR-qN-Hy0" firstAttribute="top" secondItem="rL6-Ji-EAh" secondAttribute="bottom" constant="108" id="VMW-Cf-Drf"/>
+                            <constraint firstItem="Jir-yX-bCH" firstAttribute="bottom" secondItem="BEZ-dB-hCe" secondAttribute="bottom" constant="192" id="d1x-ec-htj"/>
+                            <constraint firstItem="Jir-yX-bCH" firstAttribute="trailing" secondItem="NcA-k1-uaW" secondAttribute="trailing" constant="8" id="dRS-tJ-coY"/>
+                            <constraint firstItem="Jir-yX-bCH" firstAttribute="trailing" secondItem="rL6-Ji-EAh" secondAttribute="trailing" constant="8" id="dqn-CF-LXB"/>
+                            <constraint firstItem="rL6-Ji-EAh" firstAttribute="top" secondItem="NcA-k1-uaW" secondAttribute="bottom" constant="95" id="ehO-kL-QJV"/>
+                            <constraint firstItem="BEZ-dB-hCe" firstAttribute="leading" secondItem="Jir-yX-bCH" secondAttribute="leading" constant="101" id="j3w-m5-6Gm"/>
+                            <constraint firstItem="BEZ-dB-hCe" firstAttribute="top" secondItem="rL6-Ji-EAh" secondAttribute="bottom" constant="108" id="qPL-bH-bAr"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Jir-yX-bCH"/>
+                    </view>
+                    <connections>
+                        <outlet property="assessmentContentCV" destination="rL6-Ji-EAh" id="3G6-OO-hcV"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qtM-Nn-6Ce" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="876" y="905.3973013493254"/>
         </scene>
     </scenes>
     <resources>
