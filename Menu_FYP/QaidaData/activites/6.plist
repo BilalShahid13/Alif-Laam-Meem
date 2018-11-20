@@ -1,274 +1,91 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-<dict>
-	<key>0</key>
-	<array>
+<array>
 	<string>ءَا</string>
-	
 	<string>اِىْ</string>
 	<string>ءُوْا</string>
-	</array>
-	
-	<key>1</key>
-	<array>
-	<string>بَا</string>
-	
+	<string>بَا</string>	
 	<string>بِیْ</string>
 	<string>بُوْا</string>
-		</array>
-	
-	<key>2</key>
-	<array>
-	
 	<string>تَا</string>
-	
 	<string>تِىْ</string>
 	<string>تُوْ</string>
-		</array>
-	
-	<key>3</key>
-	<array>
-	
 	<string>ثَا</string>
-
 	<string>ثِىْ</string>
-		<string>ثُوْا</string>
-		</array>
-	
-	<key>4</key>
-	<array>
-	
+	<string>ثُوْا</string>
 	<string>جَا</string>
-	
 	<string>جِىْ</string>
 	<string>جُوْا</string>
-		</array>
-	
-	<key>5</key>
-	<array>
-	
-	
 	<string> حَا</string>
-	
 	<string>حِىْ</string>
 	<string>حُوْا</string>
-		</array>
-	
-	<key>6</key>
-	<array>
-	
 	<string>خَا</string>
-	
 	<string>خِىْ</string>
 	<string>خُوْا</string>
-		</array>
-	
-	<key>7</key>
-	<array>
-	
 	<string>دَا</string>
-	
 	<string>دِىْ</string>
 	<string>دُوْا</string>
-		</array>
-	
-	<key>8</key>
-	<array>
-	
 	<string>ذَا</string>
-	
 	<string>ذِىْ</string>
 	<string>ذُوْا</string>
-		</array>
-	
-	<key>9</key>
-	<array>
-	
 	<string>رَا</string>
-	
 	<string>رِىْ</string>
 	<string>رُوْا</string>
-		</array>
-	
-	<key>10</key>
-	<array>
-	
 	<string>زَا</string>
-	
 	<string>زِىْ</string>
 	<string>زُوْا</string>
-	
-		</array>
-	
-	<key>11</key>
-	<array>
-	
 	<string>سَا</string>
-	
 	<string>سِىْ</string>
 	<string>سُوْا</string>
-		</array>
-	
-	<key>12</key>
-	<array>
-	
 	<string>شَا</string>
-	
 	<string>شِىْ</string>
 	<string>شُوْا</string>
-	
-		</array>
-	
-	<key>13</key>
-	<array>
-	
-		
 	<string>صَا</string>
-	
 	<string>صِىْ</string>
 	<string>صُوْا</string>
-		</array>
-	
-	<key>14</key>
-	<array>
-	
 	<string>ضَا</string>
-	
 	<string>ضِىْ</string>
 	<string>ضُوْا</string>
-	
-
-		</array>
-	
-	<key>15</key>
-	<array>
-	
 	<string>طَا</string>
-	
 	<string>طِىْ</string>
 	<string>طُوْا</string>
-		</array>
-	
-	<key>16</key>
-	<array>
-	
 	<string>ظَا</string>
-	
 	<string>ظِىْ</string>
 	<string>ظُوْا</string>
-	
-		</array>
-	
-	<key>17</key>
-	<array>
-	
 	<string>عَا</string>
-	
 	<string>عِىْ</string>
 	<string>عُوْا</string>
-		</array>
-	
-	<key>18</key>
-	<array>
-	
 	<string>غَا</string>
-	
 	<string>غِىْ</string>
 	<string>غُوْا</string>
-		</array>
-	
-	<key>19</key>
-	<array>
-	
-	
-	<string>فَا</string>
-	
+	<string>فَا</string>	
 	<string>فِىْ</string>
 	<string>فُوْا</string>
-		</array>
-	
-	<key>20</key>
-	<array>
-	
 	<string>قَا</string>
-	
 	<string>قِىْ</string>
 	<string>قُوْا</string>
-		</array>
-	
-	<key>21</key>
-	<array>
-	
 	<string>كَا</string>
-	
 	<string>كِىْ</string>
 	<string>كُوْا</string>
-		</array>
-	
-	<key>22</key>
-	<array>
-	
 	<string>لَا</string>
-
 	<string>لِىْ</string>
-		<string>لُوْا</string>
-		</array>
-	
-	<key>23</key>
-	<array>
-	
+	<string>لُوْا</string>
 	<string>مَا</string>
-	
 	<string>مِىْ</string>
 	<string>مُوْا</string>
-		</array>
-	
-	<key>24</key>
-	<array>
-	
 	<string>نَا</string>
-	
 	<string>نِىْ</string>
 	<string>نُوْا</string>
-		</array>
-	
-	<key>25</key>
-	<array>
-	
 	<string>وَا</string>
-	
 	<string>وِىْ</string>
 	<string>وُوْا</string>
-	
-	
-		</array>
-	
-	<key>26</key>
-	<array>
-	
-	
-	
 	<string>هَا</string>
-	
 	<string>هِىْ</string>
 	<string>هُوْا</string>
-
-	</array>
-	
-	
-	
-	<key>28</key>
-	<array>
-	
-	
 	<string>يَا</string>
 	<string>يِىْ</string>
 	<string>يُوْا</string>
-	
-	
-	
-	
 </array>
-</dict>
+
 </plist>

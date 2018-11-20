@@ -11,4 +11,9 @@ import UIKit
 class GridViewCell: UICollectionViewCell {
     
     @IBOutlet weak var GridButton: UIButton!
+    override func awakeFromNib() {
+        super.awakeFromNib()
+        self.contentView.isUserInteractionEnabled = false
+        
+    }
 }

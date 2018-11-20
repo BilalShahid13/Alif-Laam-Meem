@@ -17,6 +17,6 @@ class lessonsCell: UICollectionViewCell {
     
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
+        self.contentView.isUserInteractionEnabled = false
     }
 }

@@ -9,14 +9,22 @@
 import UIKit
 
 class MenuViewController: UIViewController {
-
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        self.title = "Dashboard"
         // Do any additional setup after loading the view.
     }
     
-
+    @IBAction func segueQaida(_ sender: Any) {
+        self.performSegue(withIdentifier: "DashboardToQaida", sender: nil)
+    }
+    
+    @IBAction func segueQuran(_ sender: Any) {
+        self.performSegue(withIdentifier: "DashboardToQuran", sender: nil)
+    }
+    @IBAction func segueAssessment(_ sender: Any) {
+        self.performSegue(withIdentifier: "DashboardToMyAssessments", sender: nil)
+    }
     /*
     // MARK: - Navigation
 

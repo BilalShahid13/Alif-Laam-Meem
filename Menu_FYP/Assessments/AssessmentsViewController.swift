@@ -14,8 +14,6 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
     
     @IBOutlet weak var CollectionView: UICollectionView!
     @IBOutlet weak var pageControl: UIPageControl!
-    @IBOutlet weak var top: UILabel!
-    
     
     let surahName = ["Quaida", "Quran", "Assessments"]
     let reuseIdentifier = "AssessmentCell"
@@ -27,9 +25,6 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
     var currentItem = 0
     
     func setup() {
-        
-        top.layer.cornerRadius = 10.0
-        top.layer.masksToBounds = true
         let layout: UICollectionViewFlowLayout = UICollectionViewFlowLayout()
         
         itemWidth =  self.view.frame.width
@@ -99,7 +94,9 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.title="My Assessments"
         setup()
+        
         // Do any additional setup after loading the view, typically from a nib.
     }
 

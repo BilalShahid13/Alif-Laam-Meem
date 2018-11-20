@@ -1,38 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-<dict>
-	<key>0</key>
 	<array>
-	<string>المفردات</string>
-	<string>المركبات</string>
-	<string>حروف المقطعات</string>
-	<string>الحركات</string>
-	<string>التنوين</string>
-	<string>مشق حركات و تنوين</string>
-	</array>
-	<key>1</key>
-	<array>
-	<string>مد اصلي</string>
-	<string>مد و لين</string>
-	<string>مشق  مد اصلي و لين</string>
-	<string>سكون</string>
-	<string>مشق سكون</string>
-
-	</array>
-	<key>2</key>
-	<array>
+		<string>المفردات</string>
+		<string>المركبات</string>
+		<string>حروف المقطعات</string>
+		<string>الحركات</string>
+		<string>التنوين</string>
+		<string>مشق حركات و تنوين</string>
+		<string>مد اصلي</string>
+		<string>مد و لين</string>
+		<string>مشق  مد اصلي و لين</string>
+		<string>سكون</string>
+		<string>مشق سكون</string>
 		<string>تشديد</string>
-	<string>مشق تشديد</string>
-	<string>مشق تشديد مع سكون</string>
-	<string>تشديد مع تشديد</string>
-	<string>تشديد بعد حروف مده</string>
-	</array>
-	<key>3</key>
-	<array>
+		<string>مشق تشديد</string>
+		<string>مشق تشديد مع سكون</string>
+		<string>تشديد مع تشديد</string>
+		<string>تشديد بعد حروف مده</string>
 		<string>الحروف  ١</string>
-	<string>الحروف ٢</string>
-	<string>الحروف ٣ </string>
+		<string>الحروف ٢</string>
+		<string>الحروف ٣ </string>
 	</array>
-</dict>
 </plist>

@@ -14,11 +14,12 @@ class QaidaCollectionViewCell: UICollectionViewCell {
     
     @IBOutlet weak var button: UIButton!
     @IBAction func gridCell(_ sender: Any) {
-    
-    }
+            }
     
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
+        self.contentView.isUserInteractionEnabled = false
+
     }
 }

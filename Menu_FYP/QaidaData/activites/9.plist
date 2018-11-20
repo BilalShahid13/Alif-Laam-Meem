@@ -1,180 +1,93 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-<dict>
-	<key>0</key>
 	<array>
 		<string>اَ</string>
 		<string>اِ</string>
 		<string>اُ</string>
-	</array>
-	<key>1</key>
-	<array>
 		<string>اَبْ</string>
 		<string>اِبْ</string>
 		<string>اُبْ</string>
-	</array>
-	<key>2</key>
-	<array>
 		<string>اَتْ</string>
 		<string>اِتْ</string>
 		<string>اُتْ</string>
-	</array>
-	<key>3</key>
-	<array>
 		<string>اَثْ</string>
 		<string>اِثْ</string>
 		<string>اُثْ</string>
-	</array>
-	<key>4</key>
-	<array>
 		<string>اَجْ</string>
 		<string>اِجْ</string>
 		<string>اُجْ</string>
-	</array>
-	<key>5</key>
-	<array>
 		<string>اَحْ</string>
 		<string>اِحْ</string>
 		<string></string>
-	</array>
-	<key>6</key>
-	<array>
 		<string>اَخْ</string>
 		<string>اِخْ</string>
 		<string>اُخْ</string>
-	</array>
-	<key>7</key>
-	<array>
 		<string>اَدْ</string>
 		<string>اِدْ</string>
 		<string>اُدْ</string>
-	</array>
-	<key>8</key>
-	<array>
 		<string>اَذْ</string>
 		<string>اِذْ </string>
 		<string>اُذْ</string>
-	</array>
-	<key>9</key>
-	<array>
 		<string>اَرْ</string>
 		<string>اِرْ</string>
 		<string>اُرْ</string>
-	</array>
-	<key>10</key>
-	<array>
 		<string>اَزْ</string>
 		<string>اِزْ</string>
 		<string>اُزْ</string>
-	</array>
-	<key>11</key>
-	<array>
 		<string>اَسْ</string>
 		<string>اِسْ</string>
 		<string>اُسْ</string>
-	</array>
-	<key>12</key>
-	<array>
 		<string>اَشْ</string>
 		<string>اِشْ</string>
 		<string>اُشْ</string>
-	</array>
-	<key>13</key>
-	<array>
 		<string>اَصْ</string>
 		<string>اِصْ</string>
 		<string>اُصْ</string>
-	</array>
-	<key>14</key>
-	<array>
 		<string>اَضْ</string>
 		<string>اِضْ</string>
 		<string>اُضْ</string>
-	</array>
-	<key>15</key>
-	<array>
 		<string>اَطْ</string>
 		<string>اِطْ</string>
 		<string>اُطْ</string>
-	</array>
-	<key>16</key>
-	<array>
 		<string>اَظْ</string>
 		<string>اِظْ</string>
 		<string>اُظْ</string>
-	</array>
-	<key>17</key>
-	<array>
 		<string>اَعْ</string>
 		<string>اِعْ</string>
 		<string>اُعْ</string>
-	</array>
-	<key>18</key>
-	<array>
 		<string>اَغْ</string>
 		<string>اِغْ</string>
 		<string>اُغْ</string>
-	</array>
-	<key>19</key>
-	<array>
 		<string>اَفْ</string>
 		<string>اِفْ</string>
 		<string>اُفْ</string>
-	</array>
-	<key>20</key>
-	<array>
 		<string>اَقْ</string>
 		<string>اِقْ</string>
 		<string>اُقْ</string>
-	</array>
-	<key>21</key>
-	<array>
 		<string>اَكْ</string>
 		<string>اِكْ</string>
 		<string>اُكْ</string>
-	</array>
-	<key>22</key>
-	<array>
 		<string>اَلْ</string>
 		<string>اِلْ</string>
 		<string>اُلْ</string>
-	</array>
-	<key>23</key>
-	<array>
 		<string>اَمْ</string>
 		<string>اِمْ</string>
 		<string>اُمْ</string>
-	</array>
-	<key>24</key>
-	<array>
 		<string>اَنْ</string>
 		<string>اِنْ</string>
 		<string>اُنْ</string>
-	</array>
-	<key>25</key>
-	<array>
 		<string>اَوْ</string>
 		<string>اِوْ</string>
 		<string>اُوْ</string>
-	</array>
-	<key>26</key>
-	<array>
 		<string>اَهْ</string>
 		<string>اِهْ</string>
 		<string>اُهْ</string>
-	</array>
-	<key>27</key>
-	<array>
 		<string>اَ</string>
 		<string>اِ</string>
 		<string>اُ</string>
-	</array>
-	<key>28</key>
-	<array>
 		<string>اَيْ</string>
 		<string>اِيْ</string>
 		<string>اُيْ</string>
 	</array>
-</dict>
 </plist>

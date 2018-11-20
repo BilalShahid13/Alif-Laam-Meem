@@ -11,10 +11,14 @@ import UIKit
 class NewAssessmentViewController: UIViewController ,UICollectionViewDataSource,UICollectionViewDelegateFlowLayout{
     @IBOutlet weak var assessmentContentCV: UICollectionView!
     let reuseIdentifier="wordButton"
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+    }
+    @IBAction func submit(_ sender: Any) {
+ 
     }
     func setup() {
         
