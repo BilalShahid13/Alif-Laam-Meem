@@ -69,8 +69,7 @@ class LessonsViewController: UIViewController ,UICollectionViewDataSource,UIColl
         self.navigationController?.pushViewController(destinationVC, animated: true)
     }
     @IBAction func TestBtn(_ sender: Any) {
-        let destinationVC = storyboard?.instantiateViewController(withIdentifier: "wordGrid") as! GridViewController
-        destinationVC.gridType="test"
+        let destinationVC = storyboard?.instantiateViewController(withIdentifier: "TestBoard") as! TestBoardVC
         destinationVC.activityIndex=activityIndex
         self.navigationController?.pushViewController(destinationVC, animated: true)
     }

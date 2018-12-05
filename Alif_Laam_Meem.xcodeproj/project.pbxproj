@@ -7,60 +7,73 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6514BEA621A445E80095DE85 /* surahNames.csv in Resources */ = {isa = PBXBuildFile; fileRef = 6514BEA521A445E80095DE85 /* surahNames.csv */; };
+		65345D1C21AA84AC00E2EDC9 /* TeacherViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65345D1B21AA84AC00E2EDC9 /* TeacherViewVC.swift */; };
 		6562A85B21A173F200CCF6E0 /* QaidaDatatoArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6562A85A21A173F200CCF6E0 /* QaidaDatatoArray.swift */; };
 		6562A85D21A1744000CCF6E0 /* QaidaClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6562A85C21A1744000CCF6E0 /* QaidaClass.swift */; };
+		656F28FE21A98DB40066B860 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656F28FD21A98DB40066B860 /* LoginVC.swift */; };
+		656F290321A994850066B860 /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656F290221A994850066B860 /* Test.swift */; };
+		656F290721A9A4730066B860 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656F290621A9A4730066B860 /* User.swift */; };
+		657A13D621AC460300083319 /* surahNames.csv in Resources */ = {isa = PBXBuildFile; fileRef = 657A13D421AC460300083319 /* surahNames.csv */; };
+		657A13D721AC460300083319 /* Quran.csv in Resources */ = {isa = PBXBuildFile; fileRef = 657A13D521AC460300083319 /* Quran.csv */; };
+		657E001321AD166600891872 /* TestBoardVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657E001221AD166600891872 /* TestBoardVC.swift */; };
+		657E001721AD307800891872 /* TestBoardCVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657E001621AD307800891872 /* TestBoardCVCell.swift */; };
 		65882DAD21A2797D00597648 /* QaidaData in Resources */ = {isa = PBXBuildFile; fileRef = 65882DAC21A2797D00597648 /* QaidaData */; };
 		659A4A28219C6BF9000E4070 /* NewAssessmentCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 659A4A27219C6BF9000E4070 /* NewAssessmentCollectionViewCell.swift */; };
 		659A4A2A219C6C16000E4070 /* NewAssessmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 659A4A29219C6C16000E4070 /* NewAssessmentViewController.swift */; };
+		659B137A21B594EA004C8D71 /* violatedRulesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 659B137921B594EA004C8D71 /* violatedRulesVC.swift */; };
+		659B137D21B5A100004C8D71 /* SBCardPopupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 659B137C21B5A100004C8D71 /* SBCardPopupViewController.swift */; };
 		65B15894219825FD001844F3 /* LessonsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B15893219825FD001844F3 /* LessonsViewController.swift */; };
 		65B1589B21982A96001844F3 /* lessonsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B1589A21982A96001844F3 /* lessonsCell.swift */; };
 		65F6995D21983DD000F205C6 /* GridViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F6995C21983DD000F205C6 /* GridViewController.swift */; };
 		65F6996021983E3A00F205C6 /* GridViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F6995F21983E3A00F205C6 /* GridViewCell.swift */; };
 		73752EF92192BC1B004C2A61 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73752EF82192BC1B004C2A61 /* AppDelegate.swift */; };
-		73752EFB2192BC1B004C2A61 /* AssessmentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73752EFA2192BC1B004C2A61 /* AssessmentsViewController.swift */; };
 		73752EFE2192BC1B004C2A61 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73752EFC2192BC1B004C2A61 /* Main.storyboard */; };
 		73752F012192BC1B004C2A61 /* Menu_FYP.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 73752EFF2192BC1B004C2A61 /* Menu_FYP.xcdatamodeld */; };
 		73752F032192BC1D004C2A61 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 73752F022192BC1D004C2A61 /* Assets.xcassets */; };
 		73752F062192BC1D004C2A61 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73752F042192BC1D004C2A61 /* LaunchScreen.storyboard */; };
-		73752F2E21938FA6004C2A61 /* AssessmentCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73752F2D21938FA6004C2A61 /* AssessmentCollectionViewCell.swift */; };
 		73752F3021939EF7004C2A61 /* playimg.png in Resources */ = {isa = PBXBuildFile; fileRef = 73752F2F21939EF7004C2A61 /* playimg.png */; };
 		73752F342193A127004C2A61 /* arabic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 73752F332193A127004C2A61 /* arabic.otf */; };
 		73752F362193A7AD004C2A61 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73752F352193A7AD004C2A61 /* MenuViewController.swift */; };
 		73752F382193AB7D004C2A61 /* QuranViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73752F372193AB7D004C2A61 /* QuranViewController.swift */; };
 		73752F3A2193AC11004C2A61 /* QuranCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73752F392193AC11004C2A61 /* QuranCollectionViewCell.swift */; };
 		73DA1A42219404B4009716E1 /* QaidaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73DA1A41219404B4009716E1 /* QaidaViewController.swift */; };
-		73DF92FE2193F30300A4FF66 /* Quran.csv in Resources */ = {isa = PBXBuildFile; fileRef = 73DF92FC2193F30300A4FF66 /* Quran.csv */; };
 		73DFB3F92193F76700A4FF66 /* QaidaCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73DFB3F82193F76700A4FF66 /* QaidaCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		6514BEA521A445E80095DE85 /* surahNames.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = surahNames.csv; sourceTree = "<group>"; };
+		65345D1B21AA84AC00E2EDC9 /* TeacherViewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeacherViewVC.swift; sourceTree = "<group>"; };
 		6562A85A21A173F200CCF6E0 /* QaidaDatatoArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QaidaDatatoArray.swift; sourceTree = "<group>"; };
 		6562A85C21A1744000CCF6E0 /* QaidaClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QaidaClass.swift; sourceTree = "<group>"; };
+		656F28FD21A98DB40066B860 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		656F290221A994850066B860 /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
+		656F290621A9A4730066B860 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		657A13D421AC460300083319 /* surahNames.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = surahNames.csv; sourceTree = "<group>"; };
+		657A13D521AC460300083319 /* Quran.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Quran.csv; sourceTree = "<group>"; };
+		657A13D821AC469700083319 /* maddina.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = maddina.ttf; sourceTree = "<group>"; };
+		657E001221AD166600891872 /* TestBoardVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestBoardVC.swift; sourceTree = "<group>"; };
+		657E001621AD307800891872 /* TestBoardCVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestBoardCVCell.swift; sourceTree = "<group>"; };
 		65882DAC21A2797D00597648 /* QaidaData */ = {isa = PBXFileReference; lastKnownFileType = folder; path = QaidaData; sourceTree = "<group>"; };
 		659A4A27219C6BF9000E4070 /* NewAssessmentCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewAssessmentCollectionViewCell.swift; sourceTree = "<group>"; };
 		659A4A29219C6C16000E4070 /* NewAssessmentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewAssessmentViewController.swift; sourceTree = "<group>"; };
+		659B137921B594EA004C8D71 /* violatedRulesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = violatedRulesVC.swift; sourceTree = "<group>"; };
+		659B137C21B5A100004C8D71 /* SBCardPopupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SBCardPopupViewController.swift; sourceTree = "<group>"; };
 		65B15893219825FD001844F3 /* LessonsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonsViewController.swift; sourceTree = "<group>"; };
 		65B1589A21982A96001844F3 /* lessonsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lessonsCell.swift; sourceTree = "<group>"; };
 		65F6995C21983DD000F205C6 /* GridViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridViewController.swift; sourceTree = "<group>"; };
 		65F6995F21983E3A00F205C6 /* GridViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridViewCell.swift; sourceTree = "<group>"; };
 		73752EF52192BC1B004C2A61 /* Alif_Laam_Meem.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Alif_Laam_Meem.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		73752EF82192BC1B004C2A61 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		73752EFA2192BC1B004C2A61 /* AssessmentsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssessmentsViewController.swift; sourceTree = "<group>"; };
 		73752EFD2192BC1B004C2A61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		73752F002192BC1B004C2A61 /* Menu_FYP.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Menu_FYP.xcdatamodel; sourceTree = "<group>"; };
 		73752F022192BC1D004C2A61 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		73752F052192BC1D004C2A61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		73752F072192BC1D004C2A61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		73752F2D21938FA6004C2A61 /* AssessmentCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssessmentCollectionViewCell.swift; sourceTree = "<group>"; };
 		73752F2F21939EF7004C2A61 /* playimg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = playimg.png; sourceTree = "<group>"; };
 		73752F332193A127004C2A61 /* arabic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = arabic.otf; sourceTree = "<group>"; };
 		73752F352193A7AD004C2A61 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		73752F372193AB7D004C2A61 /* QuranViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuranViewController.swift; sourceTree = "<group>"; };
 		73752F392193AC11004C2A61 /* QuranCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuranCollectionViewCell.swift; sourceTree = "<group>"; };
 		73DA1A41219404B4009716E1 /* QaidaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QaidaViewController.swift; sourceTree = "<group>"; };
-		73DF92FC2193F30300A4FF66 /* Quran.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Quran.csv; path = Menu_FYP/QuranFile/Quran.csv; sourceTree = SOURCE_ROOT; };
 		73DFB3F82193F76700A4FF66 /* QaidaCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QaidaCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -75,6 +88,49 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		65345D1A21AA848100E2EDC9 /* TeacherView */ = {
+			isa = PBXGroup;
+			children = (
+				65345D1B21AA84AC00E2EDC9 /* TeacherViewVC.swift */,
+			);
+			path = TeacherView;
+			sourceTree = "<group>";
+		};
+		656F28FB21A98C280066B860 /* Remote Database structures */ = {
+			isa = PBXGroup;
+			children = (
+				656F290221A994850066B860 /* Test.swift */,
+				656F290621A9A4730066B860 /* User.swift */,
+			);
+			path = "Remote Database structures";
+			sourceTree = "<group>";
+		};
+		656F28FC21A98D830066B860 /* Login Page */ = {
+			isa = PBXGroup;
+			children = (
+				656F28FD21A98DB40066B860 /* LoginVC.swift */,
+			);
+			path = "Login Page";
+			sourceTree = "<group>";
+		};
+		657A13D321AC45D600083319 /* QuranFiles */ = {
+			isa = PBXGroup;
+			children = (
+				657A13D521AC460300083319 /* Quran.csv */,
+				657A13D421AC460300083319 /* surahNames.csv */,
+			);
+			path = QuranFiles;
+			sourceTree = "<group>";
+		};
+		657E001121AD162100891872 /* TestBoard */ = {
+			isa = PBXGroup;
+			children = (
+				657E001221AD166600891872 /* TestBoardVC.swift */,
+				657E001621AD307800891872 /* TestBoardCVCell.swift */,
+			);
+			path = TestBoard;
+			sourceTree = "<group>";
+		};
 		659A4A26219C6BC2000E4070 /* NewAssessment */ = {
 			isa = PBXGroup;
 			children = (
@@ -82,6 +138,15 @@
 				659A4A29219C6C16000E4070 /* NewAssessmentViewController.swift */,
 			);
 			path = NewAssessment;
+			sourceTree = "<group>";
+		};
+		659B137B21B5A0AF004C8D71 /* Violated Rules */ = {
+			isa = PBXGroup;
+			children = (
+				659B137C21B5A100004C8D71 /* SBCardPopupViewController.swift */,
+				659B137921B594EA004C8D71 /* violatedRulesVC.swift */,
+			);
+			path = "Violated Rules";
 			sourceTree = "<group>";
 		};
 		65B15895219829BE001844F3 /* Lessons */ = {
@@ -100,15 +165,6 @@
 				73DA1A41219404B4009716E1 /* QaidaViewController.swift */,
 			);
 			path = Qaida;
-			sourceTree = "<group>";
-		};
-		65B15897219829FB001844F3 /* Assessments */ = {
-			isa = PBXGroup;
-			children = (
-				73752EFA2192BC1B004C2A61 /* AssessmentsViewController.swift */,
-				73752F2D21938FA6004C2A61 /* AssessmentCollectionViewCell.swift */,
-			);
-			path = Assessments;
 			sourceTree = "<group>";
 		};
 		65B1589921982A50001844F3 /* Quran */ = {
@@ -148,12 +204,16 @@
 		73752EF72192BC1B004C2A61 /* Menu_FYP */ = {
 			isa = PBXGroup;
 			children = (
+				659B137B21B5A0AF004C8D71 /* Violated Rules */,
+				657E001121AD162100891872 /* TestBoard */,
+				657A13D321AC45D600083319 /* QuranFiles */,
+				65345D1A21AA848100E2EDC9 /* TeacherView */,
 				65882DAC21A2797D00597648 /* QaidaData */,
-				73DF90C82193F28500A4FF66 /* QuranFile */,
+				656F28FC21A98D830066B860 /* Login Page */,
+				656F28FB21A98C280066B860 /* Remote Database structures */,
 				659A4A26219C6BC2000E4070 /* NewAssessment */,
 				65F6995E21983DD800F205C6 /* GridViewAll */,
 				65B1589921982A50001844F3 /* Quran */,
-				65B15897219829FB001844F3 /* Assessments */,
 				65B15896219829DC001844F3 /* Qaida */,
 				65B15895219829BE001844F3 /* Lessons */,
 				73752F322193A10F004C2A61 /* Fonts */,
@@ -182,18 +242,10 @@
 		73752F322193A10F004C2A61 /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
+				657A13D821AC469700083319 /* maddina.ttf */,
 				73752F332193A127004C2A61 /* arabic.otf */,
 			);
 			path = Fonts;
-			sourceTree = "<group>";
-		};
-		73DF90C82193F28500A4FF66 /* QuranFile */ = {
-			isa = PBXGroup;
-			children = (
-				6514BEA521A445E80095DE85 /* surahNames.csv */,
-				73DF92FC2193F30300A4FF66 /* Quran.csv */,
-			);
-			path = QuranFile;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -254,14 +306,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				73DF92FE2193F30300A4FF66 /* Quran.csv in Resources */,
+				657A13D621AC460300083319 /* surahNames.csv in Resources */,
 				73752F062192BC1D004C2A61 /* LaunchScreen.storyboard in Resources */,
+				657A13D721AC460300083319 /* Quran.csv in Resources */,
 				73752F3021939EF7004C2A61 /* playimg.png in Resources */,
 				73752F342193A127004C2A61 /* arabic.otf in Resources */,
 				73752F032192BC1D004C2A61 /* Assets.xcassets in Resources */,
 				73752EFE2192BC1B004C2A61 /* Main.storyboard in Resources */,
 				65882DAD21A2797D00597648 /* QaidaData in Resources */,
-				6514BEA621A445E80095DE85 /* surahNames.csv in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,22 +325,28 @@
 			buildActionMask = 2147483647;
 			files = (
 				73752F012192BC1B004C2A61 /* Menu_FYP.xcdatamodeld in Sources */,
+				657E001321AD166600891872 /* TestBoardVC.swift in Sources */,
 				65B1589B21982A96001844F3 /* lessonsCell.swift in Sources */,
 				73752F362193A7AD004C2A61 /* MenuViewController.swift in Sources */,
+				656F28FE21A98DB40066B860 /* LoginVC.swift in Sources */,
 				659A4A28219C6BF9000E4070 /* NewAssessmentCollectionViewCell.swift in Sources */,
 				6562A85D21A1744000CCF6E0 /* QaidaClass.swift in Sources */,
-				73752EFB2192BC1B004C2A61 /* AssessmentsViewController.swift in Sources */,
 				73752F3A2193AC11004C2A61 /* QuranCollectionViewCell.swift in Sources */,
-				73752F2E21938FA6004C2A61 /* AssessmentCollectionViewCell.swift in Sources */,
 				65F6996021983E3A00F205C6 /* GridViewCell.swift in Sources */,
 				659A4A2A219C6C16000E4070 /* NewAssessmentViewController.swift in Sources */,
+				657E001721AD307800891872 /* TestBoardCVCell.swift in Sources */,
 				73752F382193AB7D004C2A61 /* QuranViewController.swift in Sources */,
 				65B15894219825FD001844F3 /* LessonsViewController.swift in Sources */,
+				65345D1C21AA84AC00E2EDC9 /* TeacherViewVC.swift in Sources */,
 				65F6995D21983DD000F205C6 /* GridViewController.swift in Sources */,
 				73752EF92192BC1B004C2A61 /* AppDelegate.swift in Sources */,
 				6562A85B21A173F200CCF6E0 /* QaidaDatatoArray.swift in Sources */,
+				659B137D21B5A100004C8D71 /* SBCardPopupViewController.swift in Sources */,
+				656F290321A994850066B860 /* Test.swift in Sources */,
 				73DFB3F92193F76700A4FF66 /* QaidaCollectionViewCell.swift in Sources */,
+				659B137A21B594EA004C8D71 /* violatedRulesVC.swift in Sources */,
 				73DA1A42219404B4009716E1 /* QaidaViewController.swift in Sources */,
+				656F290721A9A4730066B860 /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -64,7 +64,7 @@ class QaidaViewController: UIViewController, UICollectionViewDataSource, UIColle
         let padding: CGFloat =  10
         let collectionViewSize = collectionView.frame.size.width - padding
         
-        return CGSize(width: collectionViewSize/2, height: collectionViewSize/2)
+        return CGSize(width: collectionViewSize/2, height: collectionViewSize/3)
     }
 
 }

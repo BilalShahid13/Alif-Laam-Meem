@@ -58,6 +58,7 @@ class QuranViewController: UIViewController, UICollectionViewDataSource, UIColle
         layout.minimumLineSpacing = itemSpacing
         layout.scrollDirection = .horizontal
         collectionView!.collectionViewLayout = layout
+        collectionView.transform = CGAffineTransform(scaleX: -1, y: 1)
         collectionView?.decelerationRate = UIScrollView.DecelerationRate.fast
     }
     
@@ -74,7 +75,7 @@ class QuranViewController: UIViewController, UICollectionViewDataSource, UIColle
         
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: QreuseIdentifier,
                                                       for: indexPath) as! QuranCollectionViewCell
-        
+        cell.transform = CGAffineTransform(scaleX: -1, y: 1)
         cell.titleLabel.text = surahName[indexPath.row]
         cell.textView.text = surahText[indexPath.row]
         cell.textView.font = UIFont(name: "KFGQPC Uthmanic Script HAFS", size: 28)
