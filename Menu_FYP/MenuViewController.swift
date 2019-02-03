@@ -9,6 +9,7 @@
 import UIKit
 
 class MenuViewController: UIViewController{
+    var Student: User?
     override func viewDidLoad() {
         super.viewDidLoad()
         self.title = "Dashboard"

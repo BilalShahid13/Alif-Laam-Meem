@@ -8,6 +8,7 @@
 
 import UIKit
 import AVFoundation
+import Alamofire
 class NewAssessmentViewController: UIViewController ,UICollectionViewDataSource,UICollectionViewDelegateFlowLayout,SBCardPopupContent{
     @IBOutlet weak var assessmentContentCV: UICollectionView!
     
@@ -68,7 +69,23 @@ class NewAssessmentViewController: UIViewController ,UICollectionViewDataSource,
         return CGSize(width: collectionViewSize/6, height: collectionViewSize/5)
     }
     @IBAction func submitButton(_ sender: Any) {
-        
+        let url=getDocumentsDirectory().appendingPathComponent("recording.m4a")
+        Alamofire.upload(
+            multipartFormData: { multipartFormData in
+                multipartFormData.append(url, withName: "recording.m4a")
+        },
+            to: TaskManager.serverIP + "TestService/uploadFile",
+            encodingCompletion: { encodingResult in
+                switch encodingResult {
+                case .success(let upload, _, _):
+                    upload.responseJSON { response in
+                        print(response)
+                    }
+                case .failure(let encodingError):
+                    print(encodingError)
+                }
+        }
+        )
     }
     ////////////////////////////////////////////////Recording///////////////////////////////////////////////////////////////
     @IBAction func recordButton(_ sender: Any) {
@@ -107,7 +124,7 @@ class NewAssessmentViewController: UIViewController ,UICollectionViewDataSource,
         do {
             try recordingSession.setCategory(.playAndRecord, mode: .default)
             try recordingSession.setActive(true)
-            recordingSession.requestRecordPermission() { [unowned self] allowed in
+            recordingSession.requestRecordPermission() {allowed in
                 DispatchQueue.main.async {
                     if allowed {
                         print("Permission granted")

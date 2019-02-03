@@ -17,18 +17,32 @@ class violatedRulesVC: UIViewController, UITableViewDelegate, UITableViewDataSou
     @IBOutlet weak var wordName: UILabel!
     @IBOutlet weak var ruleViolationTable: UITableView!
     var names: [String] = ["1","2","3","4","5","6"]
-
+    var rules: [Rule]?
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
+    func numberOfSections(in tableView: UITableView) -> Int {
+        return 2
+    }
+    func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
+        if(section == 0){
+            return "Articulation Point"
+        }else{
+            return "Characteristics"
+        }
+    }
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return self.names.count
+        return self.rules?.count ?? 0
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = ruleViolationTable.dequeueReusableCell(withIdentifier: reuseableIdentifier, for: indexPath)
-        cell.textLabel?.text = names[indexPath.row]
+        if(indexPath.section == 0){
+            cell.textLabel?.text = rules?[indexPath.row].articulationPoint
+        }else{
+            cell.textLabel?.text = rules?[indexPath.row].characteristic
+        }
         return cell
     }
     @IBAction func okButton(_ sender: Any) {

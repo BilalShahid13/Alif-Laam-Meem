@@ -8,18 +8,18 @@
 
 import Foundation
 
-struct Rule{
-    var ruleTitle: String?
-    var ruleDescription: String?
+struct Rule: Decodable{
+    var articulationPoint: String
+    var characteristic: String
+    var correct: String?
+    
 }
-struct Item {
-    var itemId:Int?
-    var itemType:String?
-    var itemValue:String?
-    var rules = [Rule]()
+struct Item: Decodable{
+    var itemId:Int
+    var itemType:Int
+    var itemValue:String
+    var rules:[Rule]
 }
-struct Test {
-    var itemId: Int?
-    var items = [Item]()
-    var submitted: Bool?
+struct Test: Decodable{
+    var items : [Item]
 }

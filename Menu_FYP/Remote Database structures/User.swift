@@ -12,4 +12,5 @@ struct User : Encodable,Decodable{
     var name: String
     var password:String
     var userType:String
+    var id: Int
 }

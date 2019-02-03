@@ -13,21 +13,48 @@ class TestBoardVC: UIViewController,UICollectionViewDataSource,UICollectionViewD
     var activityIndex:Int = -1
     let reuseIdentifier="TestBoardCell"
     @IBOutlet weak var testBoard: UICollectionView!
+    var lectureTest: Test?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
         self.title = "Test"
+        requestData()
         Setup()
+        
         // Do any additional setup after loading the view.
     }
+    func requestData(){
+        let jsonUrlString = TaskManager.serverIP + "TestService/TestData"
+        guard let url = URL(string: jsonUrlString) else {return}
+        var urlRequest = URLRequest(url: url)
+        urlRequest.httpMethod="POST"
+        urlRequest.addValue("application/json", forHTTPHeaderField: "Content-Type")
+        let reqTest = requestTest(lessonId: 1,studentId: 1)
+        do {
+            let loginBody = try JSONEncoder().encode(reqTest)
+            urlRequest.httpBody = loginBody
+        } catch  {}
+        TaskManager.shared.dataTask(withRequest: urlRequest) { (data, response, error) in
+            guard let data = data else {return}
+            do{
+                let resp = try JSONDecoder().decode(Test.self, from: data)
+                self.lectureTest = resp
+                self.testBoard.reloadData()
+            }catch let error{
+                print("Error decoding",error)
+            }
+        }
+    }
+    
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return 20
+        return lectureTest?.items.count ?? 0
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: reuseIdentifier,
                                                       for: indexPath) as! TestBoardCVCell
-        cell.TestBoardButton.setTitle("Word", for: .normal)
+        cell.TestBoardButton.setTitle(lectureTest?.items[indexPath.row].itemValue, for: .normal)
         return cell
     }
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
@@ -60,6 +87,7 @@ class TestBoardVC: UIViewController,UICollectionViewDataSource,UICollectionViewD
                 _ = self.testBoard.cellForItem(at: indexPath)
                 // do stuff with the cell
                 let popUp = storyboard?.instantiateViewController(withIdentifier: "violatedRulesPopup") as! violatedRulesVC
+                popUp.rules = lectureTest?.items[indexPath.row].rules
                 let sbPopup = SBCardPopupViewController(contentViewController: popUp)
                 sbPopup.show(onViewController: self)
             } else {
