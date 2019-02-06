@@ -119,6 +119,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		651DC881220B55FA00CDF8BD /* StudentView */ = {
+			isa = PBXGroup;
+			children = (
+				73752F352193A7AD004C2A61 /* MenuViewController.swift */,
+			);
+			path = StudentView;
+			sourceTree = "<group>";
+		};
 		65345D1A21AA848100E2EDC9 /* TeacherView */ = {
 			isa = PBXGroup;
 			children = (
@@ -165,7 +173,6 @@
 			isa = PBXGroup;
 			children = (
 				656F290221A994850066B860 /* Test.swift */,
-				656F290621A9A4730066B860 /* User.swift */,
 				653CCF5421B97865009CAB8C /* requestItem.swift */,
 			);
 			path = "Remote Database structures";
@@ -174,6 +181,7 @@
 		656F28FC21A98D830066B860 /* Login Page */ = {
 			isa = PBXGroup;
 			children = (
+				656F290621A9A4730066B860 /* User.swift */,
 				656F28FD21A98DB40066B860 /* LoginVC.swift */,
 			);
 			path = "Login Page";
@@ -194,6 +202,8 @@
 				657E001221AD166600891872 /* TestBoardVC.swift */,
 				657E001621AD307800891872 /* TestBoardCVCell.swift */,
 				65CC96E92201F63500B51973 /* requestTest.swift */,
+				659B137B21B5A0AF004C8D71 /* Violated Rules */,
+				659A4A26219C6BC2000E4070 /* NewAssessment */,
 			);
 			path = TestBoard;
 			sourceTree = "<group>";
@@ -221,6 +231,7 @@
 			children = (
 				65B15893219825FD001844F3 /* LessonsViewController.swift */,
 				65B1589A21982A96001844F3 /* lessonsCell.swift */,
+				657E001121AD162100891872 /* TestBoard */,
 			);
 			path = Lessons;
 			sourceTree = "<group>";
@@ -228,8 +239,10 @@
 		65B15896219829DC001844F3 /* Qaida */ = {
 			isa = PBXGroup;
 			children = (
-				73DFB3F82193F76700A4FF66 /* QaidaCollectionViewCell.swift */,
 				73DA1A41219404B4009716E1 /* QaidaViewController.swift */,
+				73DFB3F82193F76700A4FF66 /* QaidaCollectionViewCell.swift */,
+				65F6995E21983DD800F205C6 /* Takhti */,
+				65B15895219829BE001844F3 /* Lessons */,
 			);
 			path = Qaida;
 			sourceTree = "<group>";
@@ -243,13 +256,13 @@
 			path = Quran;
 			sourceTree = "<group>";
 		};
-		65F6995E21983DD800F205C6 /* GridViewAll */ = {
+		65F6995E21983DD800F205C6 /* Takhti */ = {
 			isa = PBXGroup;
 			children = (
 				65F6995C21983DD000F205C6 /* GridViewController.swift */,
 				65F6995F21983E3A00F205C6 /* GridViewCell.swift */,
 			);
-			path = GridViewAll;
+			path = Takhti;
 			sourceTree = "<group>";
 		};
 		73752EEC2192BC1B004C2A61 = {
@@ -273,30 +286,25 @@
 		73752EF72192BC1B004C2A61 /* Menu_FYP */ = {
 			isa = PBXGroup;
 			children = (
-				659B137B21B5A0AF004C8D71 /* Violated Rules */,
-				657E001121AD162100891872 /* TestBoard */,
+				651DC881220B55FA00CDF8BD /* StudentView */,
+				65882DAC21A2797D00597648 /* QaidaData */,
 				657A13D321AC45D600083319 /* QuranFiles */,
 				65345D1A21AA848100E2EDC9 /* TeacherView */,
-				65882DAC21A2797D00597648 /* QaidaData */,
 				656F28FC21A98D830066B860 /* Login Page */,
 				656F28FB21A98C280066B860 /* Remote Database structures */,
-				659A4A26219C6BC2000E4070 /* NewAssessment */,
-				65F6995E21983DD800F205C6 /* GridViewAll */,
 				65B1589921982A50001844F3 /* Quran */,
 				65B15896219829DC001844F3 /* Qaida */,
-				65B15895219829BE001844F3 /* Lessons */,
 				73752F322193A10F004C2A61 /* Fonts */,
 				73752F3121939EFF004C2A61 /* Images */,
 				73752EF82192BC1B004C2A61 /* AppDelegate.swift */,
+				653CCF4D21B7E917009CAB8C /* TaskManager.swift */,
 				73752EFC2192BC1B004C2A61 /* Main.storyboard */,
+				6562A85C21A1744000CCF6E0 /* QaidaClass.swift */,
+				6562A85A21A173F200CCF6E0 /* QaidaDatatoArray.swift */,
 				73752F022192BC1D004C2A61 /* Assets.xcassets */,
 				73752F042192BC1D004C2A61 /* LaunchScreen.storyboard */,
 				73752F072192BC1D004C2A61 /* Info.plist */,
 				73752EFF2192BC1B004C2A61 /* Menu_FYP.xcdatamodeld */,
-				73752F352193A7AD004C2A61 /* MenuViewController.swift */,
-				6562A85A21A173F200CCF6E0 /* QaidaDatatoArray.swift */,
-				6562A85C21A1744000CCF6E0 /* QaidaClass.swift */,
-				653CCF4D21B7E917009CAB8C /* TaskManager.swift */,
 			);
 			path = Menu_FYP;
 			sourceTree = "<group>";

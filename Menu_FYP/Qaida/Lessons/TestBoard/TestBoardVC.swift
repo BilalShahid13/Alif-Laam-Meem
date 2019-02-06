@@ -14,7 +14,7 @@ class TestBoardVC: UIViewController,UICollectionViewDataSource,UICollectionViewD
     let reuseIdentifier="TestBoardCell"
     @IBOutlet weak var testBoard: UICollectionView!
     var lectureTest: Test?
-    
+    var Student: User?
     override func viewDidLoad() {
         super.viewDidLoad()
         

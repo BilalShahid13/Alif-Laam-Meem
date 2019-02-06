@@ -70,13 +70,18 @@ class NewAssessmentViewController: UIViewController ,UICollectionViewDataSource,
     }
     @IBAction func submitButton(_ sender: Any) {
         let url=getDocumentsDirectory().appendingPathComponent("recording.m4a")
-        Alamofire.upload(
-            multipartFormData: { multipartFormData in
-                multipartFormData.append(url, withName: "recording.m4a")
-        },
-            to: TaskManager.serverIP + "TestService/uploadFile",
-            encodingCompletion: { encodingResult in
-                switch encodingResult {
+        do {
+            let audioData = try Data(contentsOf: url as URL)
+            let headers: HTTPHeaders = ["Content-type": "multipart/form-data"]
+            
+            let URL = try! URLRequest(url: TaskManager.serverIP + "TestService/uploadFile", method: .post, headers: headers)
+            Alamofire.upload(multipartFormData: { (multipartFormData) in
+                multipartFormData.append(audioData, withName: "file", fileName: "file", mimeType: "audio/m4a")
+                
+            }, with: URL
+                , encodingCompletion: { (result) in
+                
+                switch result {
                 case .success(let upload, _, _):
                     upload.responseJSON { response in
                         print(response)
@@ -84,9 +89,14 @@ class NewAssessmentViewController: UIViewController ,UICollectionViewDataSource,
                 case .failure(let encodingError):
                     print(encodingError)
                 }
+                
+            })
+            
+        } catch {
+            print("Unable to load data: \(error)")
         }
-        )
     }
+    
     ////////////////////////////////////////////////Recording///////////////////////////////////////////////////////////////
     @IBAction func recordButton(_ sender: Any) {
         if audioRecorder == nil {

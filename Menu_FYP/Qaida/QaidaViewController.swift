@@ -11,7 +11,7 @@ import UIKit
 class QaidaViewController: UIViewController, UICollectionViewDataSource, UICollectionViewDelegate, UICollectionViewDelegateFlowLayout {
 
     @IBOutlet weak var CollectionViwe: UICollectionView!
-    
+    var Student: User?
     let reuseIdentifier = "QaidaCell"
     var QaidaData = Qaida()
     var activities = [String]()
@@ -58,6 +58,7 @@ class QaidaViewController: UIViewController, UICollectionViewDataSource, UIColle
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         let destinationVC = storyboard?.instantiateViewController(withIdentifier: "LessonView") as! LessonsViewController
         destinationVC.activityIndex = indexPath.row
+        destinationVC.Student = self.Student
         self.navigationController?.pushViewController(destinationVC, animated: true)
     }
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
@@ -66,5 +67,4 @@ class QaidaViewController: UIViewController, UICollectionViewDataSource, UIColle
         
         return CGSize(width: collectionViewSize/2, height: collectionViewSize/3)
     }
-
 }

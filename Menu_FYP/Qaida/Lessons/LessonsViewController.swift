@@ -14,6 +14,7 @@ class LessonsViewController: UIViewController ,UICollectionViewDataSource,UIColl
     @IBOutlet weak var Sublessons: UICollectionView!
     @IBOutlet weak var Practice: UIButton!
     @IBOutlet weak var Test: UIButton!
+    var Student: User?
     var QaidaData = Qaida()
     var activities = [String]()
     var activityIndex: Int = -1
@@ -71,6 +72,7 @@ class LessonsViewController: UIViewController ,UICollectionViewDataSource,UIColl
     @IBAction func TestBtn(_ sender: Any) {
         let destinationVC = storyboard?.instantiateViewController(withIdentifier: "TestBoard") as! TestBoardVC
         destinationVC.activityIndex=activityIndex
+        destinationVC.Student = self.Student
         self.navigationController?.pushViewController(destinationVC, animated: true)
     }
 }

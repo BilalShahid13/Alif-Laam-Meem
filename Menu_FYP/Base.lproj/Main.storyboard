@@ -156,7 +156,7 @@
         <!--Qaida View Controller-->
         <scene sceneID="i9o-v0-1jj">
             <objects>
-                <viewController id="dDJ-3V-EEc" customClass="QaidaViewController" customModule="Alif_Laam_Meem" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="QaidaMain" id="dDJ-3V-EEc" customClass="QaidaViewController" customModule="Alif_Laam_Meem" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="cN3-7T-F8H">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
