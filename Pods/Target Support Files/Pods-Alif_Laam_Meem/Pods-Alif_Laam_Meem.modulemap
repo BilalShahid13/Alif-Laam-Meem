@@ -1,0 +1,6 @@
+framework module Pods_Alif_Laam_Meem {
+  umbrella header "Pods-Alif_Laam_Meem-umbrella.h"
+
+  export *
+  module * { export * }
+}

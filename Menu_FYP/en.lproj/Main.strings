@@ -1,0 +1,168 @@
+
+/* Class = "UIButton"; normalTitle = "Show Students"; ObjectID = "0CG-nD-4fU"; */
+"0CG-nD-4fU.normalTitle" = "Show Students";
+
+/* Class = "UITextView"; text = "i150074"; ObjectID = "1wV-Be-6SP"; */
+"1wV-Be-6SP.text" = "i150074";
+
+/* Class = "UINavigationItem"; title = "My Profile"; ObjectID = "2md-8b-vdC"; */
+"2md-8b-vdC.title" = "My Profile";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "4Iz-4H-hDZ"; */
+"4Iz-4H-hDZ.normalTitle" = "Button";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "78v-vT-6EB"; */
+"78v-vT-6EB.placeholder" = "Password";
+
+/* Class = "UITextView"; text = "text here"; ObjectID = "7B8-oo-whC"; */
+"7B8-oo-whC.text" = "text here";
+
+/* Class = "UINavigationItem"; title = "Student's Assessments"; ObjectID = "7td-xY-wYa"; */
+"7td-xY-wYa.title" = "Student's Assessments";
+
+/* Class = "UIButton"; normalTitle = "Assessement"; ObjectID = "8Fc-hF-pAz"; */
+"8Fc-hF-pAz.normalTitle" = "Assessement";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "9Ei-sZ-LZa"; */
+"9Ei-sZ-LZa.text" = "Label";
+
+/* Class = "UILabel"; text = "Detail"; ObjectID = "9Lg-Fo-Npw"; */
+"9Lg-Fo-Npw.text" = "Detail";
+
+/* Class = "UITextView"; text = "text here"; ObjectID = "BYQ-5J-RvT"; */
+"BYQ-5J-RvT.text" = "text here";
+
+/* Class = "UILabel"; text = " Characteristics:"; ObjectID = "BlY-9d-DYY"; */
+"BlY-9d-DYY.text" = " Characteristics:";
+
+/* Class = "UIButton"; normalTitle = "Play recording"; ObjectID = "CAN-UU-CIe"; */
+"CAN-UU-CIe.normalTitle" = "Play recording";
+
+/* Class = "UIButton"; normalTitle = "Quran"; ObjectID = "Ck5-TZ-GI8"; */
+"Ck5-TZ-GI8.normalTitle" = "Quran";
+
+/* Class = "UITextView"; text = "text here"; ObjectID = "DNJ-qC-aML"; */
+"DNJ-qC-aML.text" = "text here";
+
+/* Class = "UITextView"; text = "text here"; ObjectID = "EKN-Qs-6r5"; */
+"EKN-Qs-6r5.text" = "text here";
+
+/* Class = "UITextView"; text = "Some Teacher"; ObjectID = "F88-B4-jdU"; */
+"F88-B4-jdU.text" = "Some Teacher";
+
+/* Class = "UIButton"; normalTitle = "Login"; ObjectID = "Gwn-WO-MaC"; */
+"Gwn-WO-MaC.normalTitle" = "Login";
+
+/* Class = "UINavigationItem"; title = "My Students"; ObjectID = "H43-GC-2C1"; */
+"H43-GC-2C1.title" = "My Students";
+
+/* Class = "UIButton"; normalTitle = "Send Feedback"; ObjectID = "HAm-Z9-hNC"; */
+"HAm-Z9-hNC.normalTitle" = "Send Feedback";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "Jta-RM-9wV"; */
+"Jta-RM-9wV.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "M9e-VM-IO3"; */
+"M9e-VM-IO3.text" = "Title";
+
+/* Class = "UIButton"; normalTitle = "practice"; ObjectID = "N77-d9-S9M"; */
+"N77-d9-S9M.normalTitle" = "practice";
+
+/* Class = "UITextField"; placeholder = "User Name"; ObjectID = "NYZ-xN-tcY"; */
+"NYZ-xN-tcY.placeholder" = "User Name";
+
+/* Class = "UIButton"; normalTitle = "Log Out"; ObjectID = "NaV-UR-oPP"; */
+"NaV-UR-oPP.normalTitle" = "Log Out";
+
+/* Class = "UILabel"; text = "Lessons"; ObjectID = "NdM-yT-TRX"; */
+"NdM-yT-TRX.text" = "Lessons";
+
+/* Class = "UIButton"; normalTitle = "Log Out"; ObjectID = "OFG-q5-axo"; */
+"OFG-q5-axo.normalTitle" = "Log Out";
+
+/* Class = "UITextView"; text = "text here"; ObjectID = "OYd-Kr-WIj"; */
+"OYd-Kr-WIj.text" = "text here";
+
+/* Class = "UILabel"; text = " Articulation Point: "; ObjectID = "QpU-Qi-hVa"; */
+"QpU-Qi-hVa.text" = " Articulation Point: ";
+
+/* Class = "UITextView"; text = "No Comments"; ObjectID = "TaI-dK-gRG"; */
+"TaI-dK-gRG.text" = "No Comments";
+
+/* Class = "UILabel"; text = "\"Letter\""; ObjectID = "U8w-Xg-akd"; */
+"U8w-Xg-akd.text" = "\"Letter\"";
+
+/* Class = "UILabel"; text = " Characteristics:"; ObjectID = "WLd-Yi-90X"; */
+"WLd-Yi-90X.text" = " Characteristics:";
+
+/* Class = "UIButton"; normalTitle = "Record"; ObjectID = "ZXc-VN-FG4"; */
+"ZXc-VN-FG4.normalTitle" = "Record";
+
+/* Class = "UILabel"; text = "Bilal Shahid"; ObjectID = "aNU-Us-ayp"; */
+"aNU-Us-ayp.text" = "Bilal Shahid";
+
+/* Class = "UILabel"; text = " Articulation Point: "; ObjectID = "cMs-Ac-xQX"; */
+"cMs-Ac-xQX.text" = " Articulation Point: ";
+
+/* Class = "UIButton"; normalTitle = "Buttooooons"; ObjectID = "d59-XO-3gb"; */
+"d59-XO-3gb.normalTitle" = "Buttooooons";
+
+/* Class = "UIButton"; normalTitle = "Qaida"; ObjectID = "d5l-VT-LeB"; */
+"d5l-VT-LeB.normalTitle" = "Qaida";
+
+/* Class = "UILabel"; text = "\"Letter\""; ObjectID = "dXl-Cq-dkc"; */
+"dXl-Cq-dkc.text" = "\"Letter\"";
+
+/* Class = "UIButton"; normalTitle = "test"; ObjectID = "dhJ-yx-R9J"; */
+"dhJ-yx-R9J.normalTitle" = "test";
+
+/* Class = "UITextView"; text = "text here"; ObjectID = "epa-rG-FSV"; */
+"epa-rG-FSV.text" = "text here";
+
+/* Class = "UITextView"; text = "a"; ObjectID = "fRs-7T-fCa"; */
+"fRs-7T-fCa.text" = "a";
+
+/* Class = "UILabel"; text = " Characteristics:"; ObjectID = "hjm-0k-GDT"; */
+"hjm-0k-GDT.text" = " Characteristics:";
+
+/* Class = "UILabel"; text = " Articulation Point: "; ObjectID = "htI-UL-kMc"; */
+"htI-UL-kMc.text" = " Articulation Point: ";
+
+/* Class = "UITextView"; text = "4548"; ObjectID = "iPg-1p-giA"; */
+"iPg-1p-giA.text" = "4548";
+
+/* Class = "UIButton"; normalTitle = "Submit"; ObjectID = "j7u-kC-ct9"; */
+"j7u-kC-ct9.normalTitle" = "Submit";
+
+/* Class = "UITextView"; text = "text here"; ObjectID = "jrv-nP-yIy"; */
+"jrv-nP-yIy.text" = "text here";
+
+/* Class = "UITextView"; text = "Bilal Shahid"; ObjectID = "kbi-eP-uhk"; */
+"kbi-eP-uhk.text" = "Bilal Shahid";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "lOB-3F-GVC"; */
+"lOB-3F-GVC.text" = "Label";
+
+/* Class = "UILabel"; text = "New Assessment"; ObjectID = "mYZ-9G-C7h"; */
+"mYZ-9G-C7h.text" = "New Assessment";
+
+/* Class = "UILabel"; text = " Characteristics:"; ObjectID = "mmi-6s-GJn"; */
+"mmi-6s-GJn.text" = " Characteristics:";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "oCe-90-KoZ"; */
+"oCe-90-KoZ.normalTitle" = "Button";
+
+/* Class = "UIButton"; normalTitle = "Theory"; ObjectID = "pES-Mh-G5O"; */
+"pES-Mh-G5O.normalTitle" = "Theory";
+
+/* Class = "UITextView"; text = "text here"; ObjectID = "rJ6-88-oCv"; */
+"rJ6-88-oCv.text" = "text here";
+
+/* Class = "UILabel"; text = " Articulation Point: "; ObjectID = "wLk-SU-vF7"; */
+"wLk-SU-vF7.text" = " Articulation Point: ";
+
+/* Class = "UITextView"; text = "Hello"; ObjectID = "wbl-7w-EKh"; */
+"wbl-7w-EKh.text" = "Hello";
+
+/* Class = "UITextView"; text = "Add Comments"; ObjectID = "xqb-iA-Xkh"; */
+"xqb-iA-Xkh.text" = "Add Comments";

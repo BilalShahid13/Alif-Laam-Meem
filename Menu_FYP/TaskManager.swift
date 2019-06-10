@@ -10,7 +10,7 @@ import Foundation
 
 class TaskManager {
     static let shared = TaskManager()
-    static let serverIP = "http://192.168.100.8:8080/rest/"
+    static let serverIP = "http://34.74.126.161:8080/rest/"
     let session = URLSession.shared
     
     typealias completionHandler = (Data?, URLResponse?, Error?) -> Void
